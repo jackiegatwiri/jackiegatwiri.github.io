@@ -1,0 +1,11 @@
+img {
+  width: 25%;
+  height:250px;
+  float: left;
+}
+.info {
+  text-align: center;
+}
+#y {
+  padding-top: 2%;
+}
