@@ -1,45 +1,53 @@
 
 body {
 margin: 0; /*removes the spacing between the display on your browser and maybe a div*/
-
 }
-.div1 {
-background-color: #fdf0f6;
+.image
+{
+  background-image: url("https://www.webfx.com/blog/images/cdn.designinstruct.com/files/442-simple_portfolio_website_design_inspiration/simple_portfolio_website_design_inspiration_37carlespalacio.jpg");
+  position: relative;
+  background-position: center;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-img {
-/*display: block;
-margin-left: auto;
-margin-right: auto; use these three to align your image at the centre*/
-border-radius: 50%;
-padding: 1%;
-height: 200px;
-float: left;
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
 }
-.info {
-
-}
-#id1 {
-  padding-top: 2%;
+.text h1 {
+  font-style: italic;
+  font-size: 50px;
 }
 .div2 {
-  background-color: #951555;
-  margin-top: -16px;
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 12px;
-  clear: both;
-}
-#id2 {
   font-style: italic;
   font-weight: bold;
   font-family: fantasy;
   text-align: center;
+  color: #882042;
 }
-.div3 {
-  background-color: #771144;
-  margin-top: -22px;
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 11px;
+.who {
+  font-family: fantasy;
+  padding-left: 17%;
+  word-spacing: 5px;
+  padding-right: 17%;
+}
+.who h1 {
+  text-align: center;
+  color: #b72a67;
+}
+#p1 {
+  font-size: 50px;
+}
+#p2 {
+  line-height: 1.6;
+}
+.sidebar {
+  padding-left: 17%;
+  word-spacing: 5px;
+  padding-right: 17%;
 }
