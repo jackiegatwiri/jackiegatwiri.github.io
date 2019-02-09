@@ -1,17 +1,45 @@
-.body {
-  background-color: pink;
+
+body {
+margin: 0; /*removes the spacing between the display on your browser and maybe a div*/
+
 }
-img#image {
-  border-radius: 100px 100px 100px 100px; /*how to make a picture to be in a circular box*/
-  width: 15%;
-  height: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.div1 {
+background-color: #fdf0f6;
+}
+
+img {
+/*display: block;
+margin-left: auto;
+margin-right: auto; use these three to align your image at the centre*/
+border-radius: 50%;
+padding: 1%;
+height: 200px;
+float: left;
 }
 .info {
+
+}
+#id1 {
+  padding-top: 2%;
+}
+.div2 {
+  background-color: #951555;
+  margin-top: -16px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 12px;
+  clear: both;
+}
+#id2 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: fantasy;
   text-align: center;
 }
-#y {
-  padding-top: 2%;
+.div3 {
+  background-color: #771144;
+  margin-top: -22px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 11px;
 }
