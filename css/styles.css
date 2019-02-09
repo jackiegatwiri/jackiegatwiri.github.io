@@ -45,9 +45,23 @@ margin: 0; /*removes the spacing between the display on your browser and maybe a
 }
 #p2 {
   line-height: 1.6;
+  font-size: 20px;
 }
 .sidebar {
   padding-left: 17%;
   word-spacing: 5px;
   padding-right: 17%;
+  float: left;
+}
+.sidebar h1 {
+  color: #b72a67;
+  text-align: center;
+}
+.sidebar p {
+  line-height: 1.6;
+  word-spacing: 5px;
+  font-size: 20px;
+}
+.ol {
+  font-size: 20px;
 }
