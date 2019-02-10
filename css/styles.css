@@ -77,3 +77,22 @@ li::before {
 li {
   counter-increment: li /*how to increment your list*/
 }
+.column {
+  width: 500px;
+  float: left;
+}
+.row {
+  padding-left: 17%;
+  word-spacing: 5px;
+  padding-right: 17%;
+  font-size: 20px;
+}
+.unit {
+  color: #ff0000;
+}
+.Moringa
+ {
+   font-style: italic;
+   font-weight: bolder;
+   color: #f12d2d;
+ }
