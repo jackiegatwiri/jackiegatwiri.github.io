@@ -4,18 +4,20 @@ margin: 0; /*removes the spacing between the display on your browser and maybe a
 }
 .image
 {
-  background-image: url("https://www.webfx.com/blog/images/cdn.designinstruct.com/files/442-simple_portfolio_website_design_inspiration/simple_portfolio_website_design_inspiration_37carlespalacio.jpg");
+  background-image: url("https://static.depositphotos.com/storage/image/6d2fd091312430640659cd2808224f589ea412f6.jpg");
   position: relative;
   background-position: center;
   height: 500px;
-  background-size: cover;
+  background-size: cover; /*all of this constitutes ways of creating a background image on a division*/
   background-repeat: no-repeat;
+  color: gray;
+
 }
 .text {
   text-align: center;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%; /*all of this constitues ways of wraping your text over the bacground picture on a division*/
   transform: translate(-50%,-50%);
   color: white;
 }
@@ -51,17 +53,27 @@ margin: 0; /*removes the spacing between the display on your browser and maybe a
   padding-left: 17%;
   word-spacing: 5px;
   padding-right: 17%;
-  float: left;
 }
 .sidebar h1 {
   color: #b72a67;
   text-align: center;
 }
 .sidebar p {
-  line-height: 1.6;
-  word-spacing: 5px;
+  line-height: 1.6; /*inceses the space between lines*/
+  word-spacing: 5px;/*increases the space between words*/
   font-size: 20px;
 }
 .ol {
   font-size: 20px;
+}
+ol {
+  list-style: none; counter-reset: li /*how to color your list*/
+}
+li::before {
+  content: counter(li); color: #b72a67; /*how to color your list*/
+  display: inline-block; width: 1em;
+  margin-left: -1em
+}
+li {
+  counter-increment: li /*how to increment your list*/
 }
