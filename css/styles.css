@@ -4,14 +4,13 @@ margin: 0; /*removes the spacing between the display on your browser and maybe a
 }
 .image
 {
-  background-image: url("https://static.depositphotos.com/storage/image/6d2fd091312430640659cd2808224f589ea412f6.jpg");
+  background-image: url("https://images.unsplash.com/photo-1423477491197-ec2f29ac4d6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   position: relative;
-  background-position: center;
+  background-position: 50% 50%;
   height: 500px;
   background-size: cover; /*all of this constitutes ways of creating a background image on a division*/
   background-repeat: no-repeat;
-  color: gray;
-
+  color: black;
 }
 .text {
   text-align: center;
@@ -37,10 +36,13 @@ margin: 0; /*removes the spacing between the display on your browser and maybe a
   padding-left: 17%;
   word-spacing: 5px;
   padding-right: 17%;
+  line-height: 1.6;
 }
+
 .who h1 {
   text-align: center;
   color: #b72a67;
+  font-style: italic;
 }
 #p1 {
   font-size: 50px;
@@ -48,6 +50,13 @@ margin: 0; /*removes the spacing between the display on your browser and maybe a
 #p2 {
   line-height: 1.6;
   font-size: 20px;
+}
+.ul {
+  font-size: 20px;
+}
+.ul h3 {
+  color: #612570;
+  font-style: italic;
 }
 .sidebar {
   padding-left: 17%;
@@ -57,6 +66,7 @@ margin: 0; /*removes the spacing between the display on your browser and maybe a
 .sidebar h1 {
   color: #b72a67;
   text-align: center;
+  font-style: italic;
 }
 .sidebar p {
   line-height: 1.6; /*inceses the space between lines*/
@@ -64,7 +74,7 @@ margin: 0; /*removes the spacing between the display on your browser and maybe a
   font-size: 20px;
 }
 .ol {
-  font-size: 20px;
+font-size: 20px;
 }
 ol {
   list-style: none; counter-reset: li /*how to color your list*/
